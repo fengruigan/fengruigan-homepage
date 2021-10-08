@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "This is my personal homepage",
   "scripts": {
+    "checkstyle": "npm run lint && npm run prettier",
     "lint": "eslint --ext .html ./ && eslint --ext .js ./",
     "prettier": "prettier -c ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
+    "Fengrui Gan",
     "homepage"
   ],
   "author": "Fengrui Gan",

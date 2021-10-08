@@ -1,11 +1,72 @@
-#project-list li {
-  border: none;
+.card-title {
+  font-size: 1.5em;
 }
-
-/* .card-title {
-  color: blue;
-} */
+.card-subtitle {
+  font-size: 1.2em;
+}
 
 .card-text {
   margin: 0 1em 0.5em 1em;
+}
+
+.tag-list {
+  list-style: none;
+}
+
+.tag {
+  padding: 2px 5px 2px 5px;
+  margin-left: 10px;
+  color: white;
+}
+
+.tag-js {
+  background-color: #f0db4f;
+  color: black;
+}
+
+.tag-ts {
+  background-color: #007acc;
+}
+
+.tag-py {
+  background-color: #306998;
+}
+
+.tag-node {
+  background-color: #6cc24a;
+}
+
+.tag-express {
+  background-color: darkblue;
+}
+
+.tag-no-color {
+  background-color: grey;
+}
+
+.tag-mongodb {
+  background-color: #3fa037;
+}
+
+.tag-gcp {
+  background-color: orange;
+}
+
+.tag-cocos {
+  background-color: #09c6e3;
+  color: black;
+}
+
+.tag-unity {
+  background-color: white;
+  color: black;
+}
+
+.tag-heroku {
+  background-color: #c9c3e6;
+}
+
+#project-list .list-group-item {
+  border: none;
+  margin-bottom: 2em;
 }
