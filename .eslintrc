@@ -1,0 +1,19 @@
+{
+  "env": { "es2021": true, "browser": true, "node": true },
+  "root": true,
+  "extends": ["eslint:recommended", "prettier"],
+  "plugins": ["html"],
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "rules": {
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "double"],
+    "semi": ["error", "always"],
+    "no-console": 1,
+    "no-unused-vars": 1
+  },
+  "ignorePatterns": "node_modules/"
+}

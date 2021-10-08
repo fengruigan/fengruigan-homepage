@@ -1,0 +1,23 @@
+body {
+  background-color: #f2f2f2;
+}
+
+#landing-page {
+  margin-top: 11em;
+  margin-bottom: 9em;
+  text-align: center;
+}
+
+#profile-picture {
+  height: 10em;
+  border-radius: 50%;
+  margin-bottom: 2em;
+}
+
+#alias {
+  font-size: 1.5em;
+}
+
+#info-summary {
+  margin-top: 2em;
+}
