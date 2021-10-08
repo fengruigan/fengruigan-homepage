@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -18,7 +19,10 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-    <script src="https://kit.fontawesome.com/aa892a9d47.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/aa892a9d47.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Fengrui Gan's Home Page</title>
   </head>
 
@@ -69,12 +73,19 @@
                 <li>
                   Email:
                   <a href="mailto:fengruigan@gmail.com">fengruigan@gmail.com</a>
-                  <button id="copy-email" type="button" class="btn btn-outline-primary email-buttons">
+                  <button
+                    id="copy-email"
+                    type="button"
+                    class="btn btn-outline-primary email-buttons"
+                  >
                     <i class="far fa-copy"></i>
                   </button>
                 </li>
               </ul>
-              <ul id="horizontal-contact-list" class="list-group list-group-horizontal">
+              <ul
+                id="horizontal-contact-list"
+                class="list-group list-group-horizontal"
+              >
                 <li class="list-group-item">
                   <a
                     href="https://www.linkedin.com/in/fengrui-simon-gan-07a21a1a1/"
@@ -85,12 +96,20 @@
                   </a>
                 </li>
                 <li class="list-group-item">
-                  <a href="https://github.com/fengruigan" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://github.com/fengruigan"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i class="fab fa-github"></i>
                   </a>
                 </li>
                 <li class="list-group-item">
-                  <a href="https://www.facebook.com/fengrui.gan" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://www.facebook.com/fengrui.gan"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i class="fab fa-facebook"></i>
                   </a>
                 </li>
@@ -100,21 +119,39 @@
         </section>
 
         <!-- Toasts -->
-        <section>
-          <div class="position-fixed bottom-0 start-0 p-3" style="z-index: 11">
-            <div id="toast-success" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-              <div class="toast-header"><i id="toast-success-icon" class="fas fa-check-circle"></i> Success</div>
-              <div class="toast-body">Copied to clipboard.</div>
+        <div class="position-fixed bottom-0 start-0 p-3" style="z-index: 11">
+          <div
+            id="toast-success"
+            class="toast"
+            role="alert"
+            aria-live="assertive"
+            aria-atomic="true"
+          >
+            <div class="toast-header">
+              <i id="toast-success-icon" class="fas fa-check-circle"></i>
+              Success
             </div>
+            <div class="toast-body">Copied to clipboard.</div>
           </div>
+        </div>
 
-          <div class="position-fixed bottom-0 start-0 p-3" style="z-index: 11">
-            <div id="toast-failure" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-              <div class="toast-header"><i id="toast-failure-icon" class="fas fa-times-circle"></i> Failed</div>
-              <div id="error-message" class="toast-body">Failed to copy to clipboard.</div>
+        <div class="position-fixed bottom-0 start-0 p-3" style="z-index: 11">
+          <div
+            id="toast-failure"
+            class="toast"
+            role="alert"
+            aria-live="assertive"
+            aria-atomic="true"
+          >
+            <div class="toast-header">
+              <i id="toast-failure-icon" class="fas fa-times-circle"></i>
+              Failed
+            </div>
+            <div id="error-message" class="toast-body">
+              Failed to copy to clipboard.
             </div>
           </div>
-        </section>
+        </div>
       </div>
     </main>
 
