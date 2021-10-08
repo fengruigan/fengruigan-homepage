@@ -66,7 +66,7 @@
   background-color: #c9c3e6;
 }
 
-#project-list li {
+#project-list .list-group-item {
   border: none;
   margin-bottom: 2em;
 }
