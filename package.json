@@ -1,0 +1,21 @@
+{
+  "name": "personal-homepage",
+  "version": "1.0.0",
+  "description": "This is my personal homepage",
+  "scripts": {
+    "lint": "eslint --ext .html ./ && eslint --ext .js ./",
+    "prettier": "prettier -c ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "homepage"
+  ],
+  "author": "Fengrui Gan",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-html": "^6.2.0",
+    "prettier": "^2.4.0"
+  }
+}

@@ -1,0 +1,24 @@
+#history-ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+#history-ul li {
+  margin-block-end: 0.5em;
+}
+
+#lab-photo-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3em;
+}
+
+#lab-photo {
+  width: 100%;
+}
+
+#lab-photo-caption {
+  display: block;
+}
