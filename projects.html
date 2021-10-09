@@ -46,7 +46,7 @@
 
     <main>
       <div class="container">
-        <!-- Showcase -->
+        <!-- Projects -->
         <section>
           <h1 class="title">Projects</h1>
           <ul id="project-list" class="list-group">
@@ -116,7 +116,6 @@
                   <h2 class="card-title">2020 CiGA 48 Hour Game Jam</h2>
                 </div>
                 <div class="card-body">
-                  <h3 class="card-subtitle mb-2 text-muted">Cocos Creator, TypeScript</h3>
                   <p class="card-text">This is a game I co-developed in an online Game Jam.</p>
                   <p class="card-text">
                     I had just decided to transition into Computer Science industry and I was trying my best to explore
@@ -125,7 +124,13 @@
                     had an extrodinary experience cooperating with completely random strangers and feeling the
                     adrendeline rush of pushing for a deadline.
                   </p>
-                  <a href="https://physics-playground.herokuapp.com/minigames/CGJ" class="card-link">Project Link</a>
+                  <a
+                    href="https://physics-playground.herokuapp.com/minigames/CGJ"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="card-link"
+                    >Project Link</a
+                  >
                   (Warning! The game audio is on and can be loud.)
                 </div>
                 <div class="card-footer">
@@ -198,7 +203,13 @@
                     was not that good, and you can probably see that I was trying weird things (that do not go well
                     together).
                   </p>
-                  <a href="https://physics-playground.herokuapp.com/" class="card-link">Project Link</a>
+                  <a
+                    href="https://physics-playground.herokuapp.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="card-link"
+                    >Project Link</a
+                  >
                 </div>
                 <div class="card-footer">
                   <div class="mb-1">Tech Stack:</div>
@@ -230,34 +241,13 @@
             </li>
           </ul>
         </section>
-
-        <!-- Toasts -->
-        <div class="position-fixed bottom-0 start-0 p-3 toast-parent-div">
-          <div id="toast-success" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-            <div class="toast-header">
-              <i id="toast-success-icon" class="fas fa-check-circle"></i>
-              Success
-            </div>
-            <div class="toast-body">Copied to clipboard.</div>
-          </div>
-        </div>
-
-        <div class="position-fixed bottom-0 start-0 p-3 toast-parent-div">
-          <div id="toast-failure" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-            <div class="toast-header">
-              <i id="toast-failure-icon" class="fas fa-times-circle"></i>
-              Failed
-            </div>
-            <div id="error-message" class="toast-body">Failed to copy to clipboard.</div>
-          </div>
-        </div>
       </div>
     </main>
 
     <!-- Footer -->
     <footer>
       <div id="footer">
-        <div>By Fengrui Gan 2021</div>
+        <div>Fengrui Gan © 2021</div>
         <ul id="horizontal-contact-list" class="list-group list-group-horizontal">
           <li class="list-group-item">
             <a
@@ -278,6 +268,11 @@
               <i class="fab fa-facebook"></i>
             </a>
           </li>
+          <li class="list-group-item">
+            <a href="https://twitter.com/FengruiGan" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
         </ul>
         <ul id="vertical-contact-list">
           <li>Phone: (510) 449-6152</li>
@@ -289,6 +284,27 @@
             </button>
           </li>
         </ul>
+      </div>
+
+      <!-- Toasts -->
+      <div class="position-fixed bottom-0 start-0 p-3 toast-parent-div">
+        <div id="toast-success" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="toast-header">
+            <i id="toast-success-icon" class="fas fa-check-circle"></i>
+            Success
+          </div>
+          <div class="toast-body">Copied to clipboard.</div>
+        </div>
+      </div>
+
+      <div class="position-fixed bottom-0 start-0 p-3 toast-parent-div">
+        <div id="toast-failure" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="toast-header">
+            <i id="toast-failure-icon" class="fas fa-times-circle"></i>
+            Failed
+          </div>
+          <div id="error-message" class="toast-body">Failed to copy to clipboard.</div>
+        </div>
       </div>
     </footer>
 
