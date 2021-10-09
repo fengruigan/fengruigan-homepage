@@ -4,13 +4,13 @@
 
 Fengrui Gan
 
-## Class Link
-
-[here](https://johnguerra.co/classes/webDevelopment_fall_2021/)
-
 ## Project Objective
 
-Build a personal homepage with bootstrap
+Build a personal homepage with HTML, CSS, JavaScript, and Bootstrap
+
+- [Class Link](https://johnguerra.co/classes/webDevelopment_fall_2021/)
+- [Slides](https://docs.google.com/presentation/d/1DUxhcyo_CarS9NEgr0njODvs7eIyj0OoMbYh4yenIsE/edit?usp=sharing)
+- [Demo](https://youtu.be/4z3GErss9SE)
 
 ## Screenshot
 
