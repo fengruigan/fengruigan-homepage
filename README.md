@@ -14,7 +14,7 @@ Build a personal homepage with HTML, CSS, JavaScript, and Bootstrap
 
 ## Screenshot
 
-![Landing page screenshot](screenshot.png "screenshot")
+![Landing page screenshot](public/images/screenshot.png "screenshot")
 
 ## Running locally:
 
