@@ -3,6 +3,15 @@ main {
   margin-bottom: 4em;
 }
 
+p {
+  color: #666;
+  line-height: 1.5em;
+}
+
+.container {
+  width: 75%;
+}
+
 .title {
   text-align: center;
 }
@@ -25,7 +34,11 @@ main {
   color: #171515;
 }
 
-.toast {
+.fa-twitter {
+  color: #1da1f2;
+}
+
+.toast-parent-div {
   z-index: 11;
 }
 

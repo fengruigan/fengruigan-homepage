@@ -5,7 +5,7 @@ const registerEmailCopy = () => {
   let failureToast = document.getElementById("toast-failure");
   // let errorMessage = document.getElementById("error-message");
 
-  if (toastTrigger) {
+  if (toastTrigger && successToast && failureToast) {
     toastTrigger.addEventListener("click", async () => {
       let success = new bootstrap.Toast(successToast);
       let fail = new bootstrap.Toast(failureToast);
