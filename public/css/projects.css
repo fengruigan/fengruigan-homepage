@@ -17,6 +17,7 @@
   padding: 2px 5px 2px 5px;
   margin-left: 10px;
   color: white;
+  text-align: center;
 }
 
 .tag-js {
@@ -63,7 +64,7 @@
 }
 
 .tag-heroku {
-  background-color: #c9c3e6;
+  background-color: #6762a6;
 }
 
 #project-list .list-group-item {
