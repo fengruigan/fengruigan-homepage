@@ -1,4 +1,4 @@
-const registerEmailCopy = () => {
+(() => {
   const bootstrap = window.bootstrap;
   let toastTrigger = document.getElementById("copy-email");
   let successToast = document.getElementById("toast-success");
@@ -10,6 +10,7 @@ const registerEmailCopy = () => {
       let success = new bootstrap.Toast(successToast);
       let fail = new bootstrap.Toast(failureToast);
       try {
+        // John: I like how you used this code for copying the email on the clipboard. I wonder if you would start getting a lot of spam because of this
         await navigator.clipboard.writeText("fengruigan@gmail.com");
         success.show();
       } catch (err) {
@@ -18,6 +19,5 @@ const registerEmailCopy = () => {
       }
     });
   }
-};
-
-registerEmailCopy();
+};)();
+// This way you can declare and call the function right away
