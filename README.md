@@ -1,6 +1,6 @@
 # fengruigan-homepage
 
--- John: Description here, something like --- This is a basic HTML/CSS/JS project for my personal website. It uses vanilla HTML+CSS+ES6 + Bootstrap
+This is a basic HTML/CSS/JS project for my personal website. It uses vanilla HTML + CSS + ES6 + Bootstrap.
 
 ## Author
 
