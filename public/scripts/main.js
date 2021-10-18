@@ -19,5 +19,5 @@
       }
     });
   }
-};)();
+})();
 // This way you can declare and call the function right away
