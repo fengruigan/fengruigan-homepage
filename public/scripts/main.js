@@ -1,9 +1,14 @@
 (() => {
+
+  // auto update copyright year
+  const copyright = document.querySelector("#copyright");
+  const year = new Date().getFullYear()
+  copyright.innerHTML = `Fengrui Gan © ${year}`
   const bootstrap = window.bootstrap;
   let toastTrigger = document.getElementById("copy-email");
   let successToast = document.getElementById("toast-success");
   let failureToast = document.getElementById("toast-failure");
-  // let errorMessage = document.getElementById("error-message");
+  // let errorMessage = document.getElementById("error-message")
 
   if (toastTrigger && successToast && failureToast) {
     toastTrigger.addEventListener("click", async () => {
@@ -20,4 +25,3 @@
     });
   }
 })();
-// This way you can declare and call the function right away

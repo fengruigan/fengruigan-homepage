@@ -9,7 +9,7 @@ section {
 
 .history-list-row {
   display: flex;
-  align-items: center;
+  margin-bottom: 0;
 }
 
 .history-list-icon {
@@ -19,8 +19,18 @@ section {
 
 .history-list-content {
   text-indent: -3em;
-  padding: 1em 1em 1em 4em;
+  padding: 0.5em 1em 0.25em 4em;
   /* border-left: 5px solid rgb(147, 147, 255); */
+}
+
+.history-list-content>p {
+  color: black;
+  margin-bottom: 0.5em;
+}
+
+.indent {
+  display: flex;
+  width: 5em;
 }
 
 #baby-icon {
@@ -51,15 +61,18 @@ section {
   .history-list-content {
     border-left: none;
   }
+
   #lab-photo {
     width: 90%;
   }
 }
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .history-list-content {
     border-left: none;
   }
+
   #lab-photo {
     width: 80%;
   }
@@ -70,6 +83,7 @@ section {
   .history-list-content {
     border-left: 5px solid rgb(147, 147, 255);
   }
+
   #lab-photo {
     width: 70%;
   }
